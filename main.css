@@ -1,0 +1,160 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+/* Here is the top right texts displaying three classes I have taken*/
+.topthreeparagraphs {
+  color:#071BEE;
+}
+/* Here is the font weight and alignment for my quotes at the footer*/
+#quotes {
+  font-weight:bold;
+  align-items:center;
+}
+/* The following are the specific changes (color, font-size, font-family) that I made to each quote in the footer*/
+#firstquote {
+  color:#14CFC2;
+  font-size:20px;
+  font-family:serif;
+}
+
+#secondquote {
+  color:#1452CF;
+  font-size:17px;
+  font-family:arial;
+}
+
+#thirdquote {
+  color:#14CF1F;
+  font-size:15px;
+  font-family:Courier New;  
+}
+/*Here are the changes made to my header*/
+header {
+  padding: 20px 0;
+}
+#MyName {
+  font-size:32px
+}
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+/* Here are the changes made to my favorite things to do (Playing Baseball, throwing the frisbee, attending concerts, and hiking)*/
+#firstfav {
+  font-weight:700;
+  font-size:30px;
+  color:#08AA4A;
+  text-align:center;
+}
+
+#secondfav {
+  font-weight:600;
+  font-size:25px;
+  color:#498AFE;
+  text-align: center;
+}
+
+#thirdfav {
+  font-weight:500;
+  font-size:20px;
+  color:#F88D13;
+  text-align: center;
+}
+
+#fourthfav {
+  font-weight:400;
+  font-size:15px;
+  color:#4CB707;
+  text-align: center;
+}
+
+/* Here are the changes to the jumbotron and the headings within the jumbotron*/
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image:url("http://4.bp.blogspot.com/-Gu2A10RsiF0/VV_YyIFxmrI/AAAAAAABHC8/ls13oX78dgk/s1600/Paddling%2BNorth%2BCarolina%2527s%2BOuter%2BBanks%2B-%2B2.JPG");
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #ffff;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #ffff;
+}
+
+
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #1477CF;
+  text-shadow: none;
+  background-color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+/* Here are the adjustments made to my footer*/
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
